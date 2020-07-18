@@ -9,7 +9,7 @@ export default function Mission(props) {
         To create an open and honest environment where people feel free to be
         themselves.
       </p>
-      <button className="backButton" onClick={() => history.push("/")}>
+      <button className="buton" onClick={() => history.push("/")}>
         Home
       </button>
     </div>

@@ -1,6 +1,6 @@
 body {
   background-image: url("../Images//frydek-abstract.jpg");
-  
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ h4 {
   align-items: auto;
   text-align: center;
   text-emphasis-color: #eee;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .card {
@@ -45,17 +45,19 @@ h4 {
 .buton {
   position: relative;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 21px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
   height: auto;
   width: auto;
   opacity: 10;
-  background-color: #093145;
-  /* border: 2px solid purple; */
+  color: antiquewhite;
+  background-color: rgb(102, 76, 76);
+  border: 2px solid black;
 }
 
 .button span {

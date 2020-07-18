@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div class="card">
       <p>Creative problem solver with natural curiosity and a forever student.</p>
-      <button className="backButton" onClick={() => history.push("/")}>
+      <button className="buton" onClick={() => history.push("/")}>
         Home
       </button>
     </div>
