@@ -12,7 +12,9 @@ export default function Nav(props) {
           onClick={() => {
             history.push("/");
           }}
-        >Home</button>
+        >
+          Home
+        </button>
 
         <button
           className="navButton"
