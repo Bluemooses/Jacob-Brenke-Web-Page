@@ -1,13 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  useParams,
-} from "react-router-dom";
-import axios from "axios";
-import { useRoutes } from "hookrouter";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import axios from "axios";
 import "./App.scss";
 import Header from "../Components/Header/Header";
 import About from "../Components/About/About";
@@ -21,6 +14,12 @@ const App = (props) => {
     <div className="app">
       <Router>
         <Switch>
+          <Route path="/">
+            <Header />
+            <Nav />
+            <Body />
+            <Footer />
+          </Route>
           <Route path="/about">
             <Header />
             <Nav />
@@ -31,13 +30,6 @@ const App = (props) => {
             <Header />
             <Nav />
             <Mission />
-            <Footer />
-          </Route>
-
-          <Route path="/">
-            <Header />
-            <Nav />
-            <Body />
             <Footer />
           </Route>
         </Switch>
