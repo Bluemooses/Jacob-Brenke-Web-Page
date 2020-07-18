@@ -21,9 +21,11 @@ import selfShot from "../../Images/self-shot.jpg";
 import taylorCakes from "../../Images/taylor-cakes.jpg";
 import taylorDoesCakes from "../../Images/taylor-does-cakes.jpg";
 import whiteFlower from "../../Images/white-flower.jpg";
+import profilePic from "../../Images/self-shot.jpg";
 
 import "./Slideshow.scss";
 const fadeImages = [
+  profilePic,
   boatstuff,
   boo,
   doingStuff,
@@ -148,6 +150,11 @@ export default function Slideshow() {
         <div className="each-fade">
           <div className="image-container">
             <img src={fadeImages[19]} alt="Oops, not found" />
+          </div>
+        </div>
+        <div className="each-fade">
+          <div className="image-container">
+            <img src={fadeImages[20]} alt="Oops, not found" />
           </div>
         </div>
       </Fade>
