@@ -8,6 +8,8 @@ export default function About() {
       <p>
         Creative problem solver with natural curiosity and a forever student.
       </p>
+      <p>Cat Dad, Plant Man, Software Engineer.</p>
+      <p>Honest, Open, Empath.</p>
       <button className="buton" onClick={() => history.push("/")}>
         Home
       </button>
