@@ -123,6 +123,7 @@ h4 {
   padding: 1px 1px;
   margin: 0 auto;
   text-align: center;
+  justify-content: center;
   align-content: center;
   background: #eee;
   height: 5%;
@@ -140,7 +141,9 @@ h4 {
 }
 a.social {
   margin: 0 1rem;
+  justify-self: center;
   align-items: center;
+  justify-content: center;
   transition: transform 250ms;
   display: inline-block;
 }
