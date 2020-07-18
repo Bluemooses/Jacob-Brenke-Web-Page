@@ -5,8 +5,18 @@
   image-orientation: center;
   float: right;
 }
+
 .Header {
   color: antiquewhite;
+  background-color: rgb(102, 76, 76);
+  margin: auto;
+  max-width: 20%;
+  justify-content: center;
+  flex: auto;
+  border: 2px solid antiquewhite;
+  border-radius: 22px 85px 10px;
+  margin-bottom: 0.6%;
+  margin-top: 0.6%;
 }
 .heading h3 {
   color: black;

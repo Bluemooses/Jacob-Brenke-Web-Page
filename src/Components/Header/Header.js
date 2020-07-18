@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import profilePic from "../../Images/self-shot.jpg";
-import Slideshow from "../Slideshow/Slideshow";
 
 export default function Header() {
   return (

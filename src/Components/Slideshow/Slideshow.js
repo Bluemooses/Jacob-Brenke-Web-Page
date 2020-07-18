@@ -1,6 +1,5 @@
 import React from "react";
 import { Fade } from "react-slideshow-image";
-import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import boatstuff from "../../Images/boat-stuff-with-taylor.jpg";
 import boo from "../../Images/boo-is-cute.jpg";
