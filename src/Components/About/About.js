@@ -5,7 +5,9 @@ export default function About() {
 
   return (
     <div class="card">
-      <p>Creative problem solver with natural curiosity and a forever student.</p>
+      <p>
+        Creative problem solver with natural curiosity and a forever student.
+      </p>
       <button className="buton" onClick={() => history.push("/")}>
         Home
       </button>

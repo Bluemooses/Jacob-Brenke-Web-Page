@@ -124,8 +124,20 @@ h4 {
   margin: 0 auto;
   text-align: center;
   align-content: center;
+  background: #eee;
+  height: 5%;
+  width: 25%;
+  display: inline-block;
+  border-radius: 22px;
+  flex-direction: column;
+  box-shadow: 5px 5px;
 }
-
+.social-container:hover {
+  box-shadow: 22px 22px;
+}
+.social-container:active {
+  box-shadow: 10px 10px;
+}
 a.social {
   margin: 0 1rem;
   align-items: center;
@@ -134,15 +146,15 @@ a.social {
 }
 
 a.twitter {
-  color: #eee;
+  color: rgb(51, 120, 185);
 }
 
 a.linkedin {
-  color: #eee;
+  color: rgb(10, 124, 200);
 }
 
 a.github {
-  color: #eee;
+  color: rgb(190, 11, 11);
 }
 
 a.medium {
