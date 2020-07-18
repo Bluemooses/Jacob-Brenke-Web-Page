@@ -23,6 +23,7 @@ const App = (props) => {
       <Router>
         <Switch>
           <Route path="/gallery">
+            <Header />
             <Nav />
             <Slideshow />
             <Footer />
