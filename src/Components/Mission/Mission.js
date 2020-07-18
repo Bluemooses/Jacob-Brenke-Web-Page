@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 export default function Mission(props) {
   let history = useHistory();
   return (
-    <div class="card">
+    <div className="card">
       <p>
         To create an open and honest environment where people feel free to be
         their best selves.

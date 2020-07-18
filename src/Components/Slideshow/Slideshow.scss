@@ -1,0 +1,14 @@
+.image-container > img {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-top: 2%;
+  padding: 5px;
+
+  max-width: 25%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slide-container > .image-container {
+  height: 10%;
+}

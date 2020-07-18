@@ -32,6 +32,14 @@ export default function Nav(props) {
         >
           Mission
         </button>
+        <button
+          className="navButton"
+          onClick={() => {
+            history.push("/gallery");
+          }}
+        >
+          Gallery
+        </button>
       </span>
     </div>
   );

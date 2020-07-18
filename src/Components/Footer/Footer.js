@@ -11,7 +11,6 @@ export default function Footer() {
   return (
     <div class="social-container">
       <div className="heading">
-        <h3>© Jacob Brenke 2020</h3>
         <h4>Check Me Out</h4>
       </div>
       <a

@@ -16,11 +16,17 @@ import Footer from "../Components/Footer/Footer";
 import Body from "../Components/Body/Body";
 import Nav from "../Components/Nav/Nav";
 import Mission from "../Components/Mission/Mission";
+import Slideshow from "../Components/Slideshow/Slideshow";
 const App = (props) => {
   return (
     <div className="app">
       <Router>
         <Switch>
+          <Route path="/gallery">
+            <Nav />
+            <Slideshow />
+            <Footer />
+          </Route>
           <Route path="/about">
             <Header />
             <Nav />
@@ -33,7 +39,6 @@ const App = (props) => {
             <Mission />
             <Footer />
           </Route>
-
           <Route path="/">
             <Header />
             <Nav />
