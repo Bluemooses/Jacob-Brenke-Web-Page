@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div class="card">
       <p>
-        Creative problem solver with natural curiosity and a forever student.
+        Creative, Problem solver, Naturally Curious, Forever Student.
       </p>
       <p>Cat Dad, Plant Man, Software Engineer.</p>
       <p>Honest, Open, Empath.</p>

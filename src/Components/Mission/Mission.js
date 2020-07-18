@@ -6,11 +6,11 @@ export default function Mission(props) {
   return (
     <div className="card">
       <p>
-        To create an open and honest environment where people feel free to be
+        Create an open and honest environment where people feel free to be
         their best selves.
       </p>
-      <p>To nurture meaningful relationships and grow as an individual.</p>
-      <p>To leave the World a better place.</p>
+      <p>Nurture meaningful relationships and grow as an individual.</p>
+      <p>Leave the World a better place.</p>
 
       <button className="buton" onClick={() => history.push("/")}>
         Home
