@@ -133,11 +133,6 @@ export default function Slideshow() {
         </div>{" "}
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[15]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
             <img src={fadeImages[16]} alt="Oops, not found" />
           </div>
         </div>{" "}
