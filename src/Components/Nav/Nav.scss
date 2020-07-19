@@ -8,4 +8,11 @@
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(102, 76, 76);
   color: antiquewhite;
+  border: antiquewhite solid;
+  box-shadow: 2px 2px;
+}
+
+.navButton:active {
+  box-shadow: 5px 5px;
+  transition: all 0.1s ease-in-out;
 }
