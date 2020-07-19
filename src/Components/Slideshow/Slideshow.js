@@ -3,7 +3,7 @@ import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import boatstuff from "../../Images/boat-stuff-with-taylor.jpg";
 import boo from "../../Images/boo-is-cute.jpg";
-import doingStuff from "../../Images/doing-stuff-with-taylor.jpg";
+
 import finerThings from "../../Images/finer-things.jpg";
 import fosterBower from "../../Images/foster-bower.jpg";
 import fosterKitties from "../../Images/foster-kitties.jpg";
@@ -28,7 +28,6 @@ const fadeImages = [
   profilePic,
   boatstuff,
   boo,
-  doingStuff,
   finerThings,
   fosterBower,
   fosterKitties,
@@ -150,11 +149,6 @@ export default function Slideshow() {
         <div className="each-fade">
           <div className="image-container">
             <img src={fadeImages[19]} alt="Oops, not found" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[20]} alt="Oops, not found" />
           </div>
         </div>
       </Fade>
