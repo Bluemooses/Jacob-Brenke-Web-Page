@@ -1,7 +1,5 @@
 import React from "react";
 import "./Body.scss";
-import { useHistory } from "react-router-dom";
-import Slideshow from "../Slideshow/Slideshow";
 export default function Body() {
   return (
     <div>

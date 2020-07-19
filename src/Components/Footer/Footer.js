@@ -8,10 +8,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  function openInNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
   return (
     <div class="social-container">
       <div className="heading">
