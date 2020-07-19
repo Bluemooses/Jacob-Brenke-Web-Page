@@ -18,25 +18,25 @@ export default function Footer() {
         <h4>Check Me Out</h4>
       </div>
       <a
-        onClick={() => {
-          openInNewTab("https://www.linkedin.com/in/jacob-brenke-aab554173/");
-        }}
+        href="https://www.linkedin.com/in/jacob-brenke-aab554173/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="linkedin social"
       >
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
       <a
-        onClick={() => {
-          openInNewTab("https://github.com/Bluemooses");
-        }}
+        href="https://github.com/Bluemooses"
+        target="_blank"
+        rel="noopener noreferrer"
         className="github social"
       >
         <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a
-        onClick={() => {
-          openInNewTab("https://twitter.com/brenkejacob");
-        }}
+        href="https://twitter.com/brenkejacob"
+        target="_blank"
+        rel="noopener noreferrer"
         className="twitter social"
       >
         <FontAwesomeIcon icon={faTwitter} size="2x" />
