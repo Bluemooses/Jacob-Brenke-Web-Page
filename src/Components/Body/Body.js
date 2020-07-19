@@ -10,6 +10,8 @@ export default function Body() {
 
         <a
           className="resumeLink"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://docs.google.com/document/d/13BZdbKvktNUin53yJc1FyE0NNxPzWhnQjRLqAUzWWhA"
         >
           <button className="buton">See My Resume</button>
