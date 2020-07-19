@@ -50,7 +50,7 @@ const fadeImages = [
 export default function Slideshow() {
   return (
     <div className="slide-container">
-      <Slide>
+      <Fade>
         {fadeImages.map((each, index) => (
           <div className="each-fade">
             <div className="image-container">
@@ -58,7 +58,7 @@ export default function Slideshow() {
             </div>
           </div>
         ))}
-      </Slide>
+      </Fade>
     </div>
   );
 }
