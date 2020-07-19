@@ -1,5 +1,5 @@
 import React from "react";
-import { Fade } from "react-slideshow-image";
+import { Fade, Slide, Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import boatstuff from "../../Images/boat-stuff-with-taylor.jpg";
 import boo from "../../Images/boo-is-cute.jpg";
@@ -51,106 +51,13 @@ export default function Slideshow() {
   return (
     <div className="slide-container">
       <Fade>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[0]} alt="Oops, not found" />
+        {fadeImages.map((each, index) => (
+          <div className="each-fade">
+            <div className="image-container">
+              <img key={index} src={each} alt="Oops, not found" />
+            </div>
           </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[1]} alt="Oops, not found" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[2]} alt="Oops, not found" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[3]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[4]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[5]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[6]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[7]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[8]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[9]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[10]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[11]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[12]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[13]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[14]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[15]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[16]} alt="Oops, not found" />
-          </div>
-        </div>{" "}
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[17]} alt="Oops, not found" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[18]} alt="Oops, not found" />
-          </div>
-        </div>
-        <div className="each-fade">
-          <div className="image-container">
-            <img src={fadeImages[19]} alt="Oops, not found" />
-          </div>
-        </div>
+        ))}
       </Fade>
     </div>
   );
